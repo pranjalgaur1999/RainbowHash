@@ -12,7 +12,7 @@
 # Usage
 # Intractive Mode Usage
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py
 
 	RainbowHash is a Great Tool For Cracking Hashes one at a time.
 	It Supports Hash such as md5, sha1, sha223, sha3_384, sha384, sha3_224, sha512, sha256, sha3_256, blake2s, blake2b, ntlm 
@@ -86,7 +86,7 @@
 
 # To Show Help options
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -h
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -h
 	 
 	usage: RainbowHash.py [-h] [-f FILE] [-p PRE] [-a APP] [-H HASH] [-v]
 	                      [-w WORD]
@@ -108,19 +108,19 @@
 
 # To Creating rainbow table without repetation
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -v -f /root/RainbowHash/pass -c
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -v -f /root/RainbowHash/pass -c
 
 # To Append Salt Value into ranbow table
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -a salt_value -v -f /root/RainbowHash/pass
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -a salt_value -v -f /root/RainbowHash/pass
 
 # To Prepend Salt Value into ranbow table
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -p salt_value -v -f /root/RainbowHash/pass
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -p salt_value -v -f /root/RainbowHash/pass
 
 # To For Generating Hash Of A Particular Word
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -w RainbowMe
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -w RainbowMe
 
 	md5     : f9defaa0ffd24ac8258f6abcf91ad8d9
 
@@ -154,7 +154,7 @@
 
 # To Cracking Hash 
 
-	root@CK00:~/RainbowHash# python3.7 RainbowHash.py -H f9defaa0ffd24ac8258f6abcf91ad8d9 
+	root@kali:~/RainbowHash# python3.7 RainbowHash.py -H f9defaa0ffd24ac8258f6abcf91ad8d9 
 
     Detected ALGORITHM (md5) :  f9defaa0ffd24ac8258f6abcf91ad8d9 
 	word :  RainbowMe
